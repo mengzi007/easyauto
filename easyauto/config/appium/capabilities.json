@@ -1,0 +1,22 @@
+{
+	"capabilityName" : "Nexus_6_API_24",
+	"implicitWaitSecond" : "60"
+	"capabilities" : {
+		"platformName": "android",
+		"platformVersion": "7.0",
+		"deviceName": "Nexus_6_API_24",
+		"avd": "Nexus_6_API_24",
+		"app": "C:\\IBM\\Document\\Test\\Test Automation\\Mobile\\apk\\Cathay Pacific_v6.2.0.apk"
+	}	
+},
+
+{
+	"capabilityName" : "vivo X6A",
+	"implicitWaitSecond" : "60"
+	"capabilities" : {
+		"platformName": "android",
+		"platformVersion": "5.0.2",
+		"deviceName": "vivo X6A",
+		"app": "C:\\IBM\\Document\\Test\\Test Automation\\Mobile\\apk\\Cathay Pacific_v6.2.0.apk"
+	}	
+}

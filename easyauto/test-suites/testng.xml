@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+	<listeners>
+		<listener class-name="com.ibm.easyauto.listener.ControlTestCaseTransformer"></listener>
+	</listeners>
+	
+	<test name="Android Test Flow 1">
+		<parameter name="appiumserver" value="127.0.0.1" />
+		<parameter name="port" value="4723" />
+		<parameter name="capabilityname" value="xxx" />
+		<parameter name="datafolder" value="./test-data" />
+		<classes>
+			<class name="com.ibm.easyauto.TC01_TestScript" />
+		</classes>
+	</test>
+
+	<test name="Android Test Flow 2">
+		<parameter name="appiumserver" value="127.0.0.1" />
+		<parameter name="port" value="4723" />
+		<parameter name="capabilityname" value="xxx" />
+		<parameter name="datafolder" value="./test-data" />
+		<classes>
+			<class name="com.ibm.easyauto.TC02_TestScript" />
+		</classes>
+	</test>
+	
+</suite>
